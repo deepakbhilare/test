@@ -20,3 +20,4 @@ jobs:
         run: |
           g++ -o my_program a.c
           ./my_program
+
