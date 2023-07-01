@@ -16,7 +16,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Build and test
+      - name: Build and test1
         run: |
           g++ -o my_program a.c
           ./my_program
