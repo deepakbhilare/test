@@ -19,7 +19,7 @@ jobs:
       - name: Build and test1
         run: |
           g++ -o my_program a.c
-          g++ -o test2 test2.cpp
+          g++ -o test2 a_1.cpp
           ./my_program
           ./test2
 
