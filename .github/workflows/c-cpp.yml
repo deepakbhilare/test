@@ -20,6 +20,8 @@ jobs:
         run: |
           g++ -o my_program a.c
           g++ -o test2 a_1.cpp
+          g++ -o assertion.c
           ./my_program
           ./test2
+          ./assertion
 
