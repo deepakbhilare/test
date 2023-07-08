@@ -7,7 +7,7 @@ int main()
  
     /*  Some big code in between and let's say x
        is accidentally changed to 9  */
-    x = 7;
+    x = 7; 
  
     // Programmer assumes x to be 7 in rest of the code
     assert(x==7); 
