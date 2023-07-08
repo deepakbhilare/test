@@ -10,7 +10,7 @@ int main()
     x = 9;
  
     // Programmer assumes x to be 7 in rest of the code
-    assert(x==7);
+    assert(x==7); 
  
     /* Rest of the code */
  
